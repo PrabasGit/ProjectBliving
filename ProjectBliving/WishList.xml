@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WishList">
+  <test thread-count="5" name="WishList">
+    <classes>
+      <class name="testcases.WishListTestCases">
+		  <methods>
+			  <include name="addToCartFromWishList"></include>
+			  <include name="removeProductFromWishList"></include>
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

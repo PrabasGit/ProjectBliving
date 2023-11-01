@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EditProfile">
+	<test thread-count="5" name="withNoFields">
+		<classes>
+			<class name="testcases.EditProfileTestCases">
+				<methods>
+					<include name="withNoFields"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="withMandatoryFields">
+		<classes>
+			<class name="testcases.EditProfileTestCases">
+				<methods>
+					<include name="withMandatoryFields"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="withLeavingOneField">
+		<classes>
+			<class name="testcases.EditProfileTestCases">
+				<methods>
+					<include name="withLeavingOneField"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="withAllFields">
+		<classes>
+			<class name="testcases.EditProfileTestCases">
+				<methods>
+					<include name="withAllFields"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="editCompleteProfile">
+		<classes>
+			<class name="testcases.EditProfileTestCases">
+				<methods>
+					<include name="editCompleteProfile"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
